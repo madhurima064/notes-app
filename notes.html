@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <link rel="stylesheet" href="notes.css">
+</head>
+<body>
+    <header>
+        <h1>Notes App</h1>
+        <button id="mode-toggle-btn">🌙</button>
+    </header>
+
+    <section class="note-form">
+        <input type="text" id="note-title" placeholder="Note Title" />
+        <textarea id="note-content" placeholder="Enter your note here"></textarea>
+        <select id="category">
+            <option value="Work">Work</option>
+            <option value="Personal">Personal</option>
+            <option value="Ideas">Ideas</option>
+            <option value="Other">Other</option>
+        </select>
+        <button id="save-note-btn">+</button>
+    </section>
+
+    <section class="notes-list" id="notes-list">
+       
+    </section>
+    <section class="note-search">
+        <input type="text" id="search-bar" placeholder="Search Notes...">
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Notes App</p>
+    </footer>
+
+    <script src="notes.js"></script>
+</body>
+</html>
